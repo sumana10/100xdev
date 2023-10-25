@@ -1,7 +1,10 @@
 "use client";
+//@ts-ignore
 import { Button, Card, TextField, Typography } from '@mui/material';
+//@ts-ignore
 import React from 'react';
 import { useState } from 'react';
+import logo from "./logo.png"
 
 export function Signup(props: {
     onClick: (username: string, password: string) => void;
@@ -9,8 +12,10 @@ export function Signup(props: {
 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+
     return (
         <div>
+            {/* <img src={logo.src} alt="My Image" /> */}
         <div style={{
             paddingTop: 150,
             marginBottom: 10,

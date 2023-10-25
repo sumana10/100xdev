@@ -10,7 +10,6 @@ async function main() {
       name: "harkirat singh",
     },
   });
-  
 }
 
 main()
